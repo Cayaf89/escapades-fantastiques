@@ -50,7 +50,7 @@
                     </div>
                 </div>
             </div>
-            <div class="md:pl-12">
+            <div class="flex items-center md:pl-12">
                 {!! wp_nav_menu([
                     'menu' => 6,
                     'menu_class' => 'chevron-right flex flex-col space-y-4 text-lg font-bold [&_a]:!no-underline',
