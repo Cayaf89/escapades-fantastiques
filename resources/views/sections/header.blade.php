@@ -1,5 +1,5 @@
 <header class="">
-    <div class="container mx-auto px-6 md:px-0 flex items-center justify-between">
+    <div class="container lg:max-w-3xl xl:max-w-5xl 2xl:max-w-7xl mx-auto px-6 md:px-0 flex items-center justify-between">
         <a class="py-6 text-2xl font-bold text-white" href="{{ home_url('/') }}">
             {!! $siteName !!}
         </a>
