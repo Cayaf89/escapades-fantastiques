@@ -62,6 +62,9 @@
             <a href="/politique-de-confidentialite/">
                 Politique de confidentialité
             </a>
+            <a href="/wp-content/uploads/2025/07/Dossier-de-presse.pdf">
+                Dossier de presse
+            </a>
         </div>
         <div class="flex items-center justify-center text-center mt-8">
             © {{ date('Y') }} Hervé Gourdet. Droits de reproduction réservés
