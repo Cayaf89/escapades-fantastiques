@@ -101,7 +101,7 @@ main ul {
 }
 
 .animate-fade {
-    animation: fadeIn .7s ease-in-out;
+    animation: fadeIn 1.5s ease-in-out;
 }
 
 @keyframes fadeIn {
