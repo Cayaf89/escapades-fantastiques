@@ -58,12 +58,12 @@
                 ]) !!}
             </div>
         </div>
-        <div class="flex items-center justify-center mt-6">
-            <a href="/politique-de-confidentialite/">
-                Politique de confidentialité
-            </a>
-            <a href="/wp-content/uploads/2025/07/Dossier-de-presse.pdf" target="_blank" class="ml-4">
+        <div class="flex flex-col md:flex-row space-x-0 md:space-x-4 space-y-2 md:space-y-0 items-center justify-center mt-6">
+            <a href="/wp-content/uploads/2025/07/Dossier-de-presse.pdf" target="_blank" class="whitespace-nowrap">
                 Dossier de presse
+            </a>
+            <a href="/politique-de-confidentialite/" class="whitespace-nowrap">
+                Politique de confidentialité
             </a>
         </div>
         <div class="flex items-center justify-center text-center mt-8">
