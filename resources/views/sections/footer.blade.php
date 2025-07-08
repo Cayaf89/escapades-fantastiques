@@ -62,7 +62,7 @@
             <a href="/politique-de-confidentialite/">
                 Politique de confidentialité
             </a>
-            <a href="/wp-content/uploads/2025/07/Dossier-de-presse.pdf">
+            <a href="/wp-content/uploads/2025/07/Dossier-de-presse.pdf" target="_blank" class="ml-4">
                 Dossier de presse
             </a>
         </div>
