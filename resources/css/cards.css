@@ -1,0 +1,14 @@
+.card {
+    @apply bg-white rounded-xl;
+    @apply flex flex-col h-full;
+
+    & .card-header {
+        @apply w-full rounded-t-xl;
+    }
+    & .card-body {
+        @apply size-full p-4;
+    }
+    & .card-footer {
+        @apply w-full p-4;
+    }
+}

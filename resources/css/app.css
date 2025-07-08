@@ -1,0 +1,86 @@
+@import "tailwindcss" theme(static);
+@import "./safelist.css";
+@import "./menu.css";
+@import "./cards.css";
+
+@plugin "@tailwindcss/typography";
+@source "../views/";
+@source "../../app/";
+
+@theme {
+    --color-beige: #FFF2D7;
+}
+
+body {
+    font-family: "Poppins", sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+}
+
+h1 {
+    @apply text-3xl md:text-4xl;
+}
+h2 {
+    @apply text-2xl md:text-3xl;
+}
+h3 {
+    @apply text-xl;
+}
+h4 {
+    @apply text-lg;
+}
+p {
+    @apply text-base;
+}
+main ul {
+    @apply list-disc pl-3.5;
+}
+
+.bg-home {
+    background-image: url("../images/bg-home.avif");
+    @apply bg-cover bg-no-repeat bg-center;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/bg-home.avif");
+    @apply bg-cover bg-no-repeat bg-center bg-fixed;
+
+    /* Set a specific height */
+    min-height: 500px;
+}
+
+.prose {
+    @apply !max-w-none;
+
+    & :where(ul > li):not(:where([class~="not-prose"], [class~="not-prose"] *))::marker {
+        color: black;
+    }
+}
+
+
+.books-carousel article {
+    @apply rounded-xl;
+
+    & .uagb-post__image img {
+        @apply rounded-t-xl;
+    }
+
+    & .uagb-post__text.uagb-post-grid-byline {
+        @apply !hidden;
+    }
+}
+
+.wp-block-uagb-advanced-heading .uagb-desc-text {
+    @apply text-lg;
+}
+
+.wp-block-uagb-post-carousel {
+    @apply space-x-8;
+}
+
+.rounded-3xl .uagb-container__shape.uagb-container__shape-top {
+    @apply rounded-t-3xl;
+}

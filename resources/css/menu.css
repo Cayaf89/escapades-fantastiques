@@ -1,0 +1,50 @@
+header {
+    @apply absolute top-0 left-0 z-50;
+    @apply flex items-center w-full;
+    @apply bg-gradient-to-b from-black from-20% to-transparent;
+    @apply [&_a]:!no-underline;
+}
+
+.nav {
+    li.menu-item {
+        @apply relative p-4;
+    }
+
+    li:hover .sub-menu {
+        @apply block;
+    }
+
+    .sub-menu {
+        @apply hidden;
+        @apply absolute top-full right-0 w-80 py-4;
+        @apply bg-black/90 rounded-lg shadow-lg;
+    }
+}
+
+.sub-menu {
+    & li.menu-item {
+        @apply p-0;
+
+        & a {
+            @apply flex w-full py-2 px-6;
+        }
+
+        &:hover {
+            @apply bg-white/20;
+        }
+    }
+}
+
+.nav-container.opened {
+    @apply flex;
+}
+
+.nav-mobile {
+    & li.menu-item {
+        @apply flex flex-col;
+    }
+
+    & li.menu-item a {
+        @apply py-2;
+    }
+}
