@@ -16,7 +16,14 @@
       "defaultDuotone": false,
       "defaultGradients": false,
       "defaultPalette": false,
-      "duotone": []
+      "duotone": [],
+      "palette": [
+        {
+          "name": "Vert",
+          "slug": "green",
+          "color": "#009689"
+        }
+      ]
     },
     "custom": {
       "spacing": {},
